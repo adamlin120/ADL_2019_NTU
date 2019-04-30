@@ -1,0 +1,21 @@
+{
+    "cuda_ids": "5",
+    "arch": "RnnAttentionNet",
+    "train": "../data/train.pkl",
+    "test": "../data/test.pkl",
+    "model_parameters": {
+        "valid": "../data/valid.pkl",
+        "embedding": "../data/embedding.pkl",
+        "batch_size": 128,
+        "max_epochs" :100,
+        "learning_rate": 1e-3,
+        "dropout_rate": 0,
+        "dim_rnn": 256,
+        "num_layers": 2,
+        "similarity": "trilinear",
+        "pooling": "max",
+        "max_iters_in_epoch": 1e100,
+        "grad_accumulate_steps":1,
+        "n_works": 16
+    }
+}

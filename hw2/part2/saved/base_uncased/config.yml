@@ -1,0 +1,52 @@
+CUDA_DEVICE: '4'
+num_cpu: 12
+
+data:
+    train:
+        csv_file: ../data/classification/train.csv
+    dev:
+        csv_file: ../data/classification/dev.csv
+
+embedder:
+    pre_train: 'bert-large-uncased'
+#    n_bert_layer: 4
+    
+model:
+    name: BertFC
+    args:
+        num_class: 5
+#        fine_tune_embedder: False
+        fc_dims:
+            - 256
+            - 64
+        dropout_rate: 0.1
+
+train:
+    n_epoch: 100
+    batch_size: 16
+
+val:
+    batch_size: 128
+
+loss:
+    name: CrossEntropyLoss
+    args:
+        weight:
+            - 0.2
+            - 0.2
+            - 0.2
+            - 0.2
+            - 0.2
+#            - 0.2582110976808433
+#            - 0.15864383636432275
+#            - 0.18700743135067138
+#            - 0.1632604559410623
+#            - 0.23287717866310023
+
+
+optimizer:
+    name: Adam
+    args:
+        lr: 0.00001
+        weight_decay: 0.0001
+        amsgrad: True

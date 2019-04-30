@@ -1,0 +1,302 @@
+2019-04-25 03:27:40 | INFO | Model Folder: saved/large_cased_no_weightdecay/
+2019-04-25 03:27:40 | INFO | Config: None
+2019-04-25 03:27:40 | INFO | Using device: cuda
+2019-04-25 03:27:40 | INFO | Loading dataset...
+2019-04-25 03:27:41 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/cee054f6aafe5e2cf816d2228704e326446785f940f5451a5b26033516a4ac3d.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 03:27:42 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/cee054f6aafe5e2cf816d2228704e326446785f940f5451a5b26033516a4ac3d.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 03:27:42 | INFO | Constructing data loader...
+2019-04-25 03:27:42 | INFO | Start training...
+2019-04-25 03:28:13 | INFO | Model Folder: saved/large_cased_no_weightdecay/
+2019-04-25 03:28:13 | INFO | Config: None
+2019-04-25 03:28:13 | INFO | Using device: cuda
+2019-04-25 03:28:13 | INFO | Loading dataset...
+2019-04-25 03:28:14 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/cee054f6aafe5e2cf816d2228704e326446785f940f5451a5b26033516a4ac3d.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 03:28:15 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/cee054f6aafe5e2cf816d2228704e326446785f940f5451a5b26033516a4ac3d.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 03:28:15 | INFO | Constructing data loader...
+2019-04-25 03:28:15 | INFO | Start training...
+2019-04-25 03:28:16 | INFO | loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-cased.tar.gz from cache at /home/u/adamlin/.pytorch_pretrained_bert/7fb0534b83c42daee7d3ddb0ebaa81387925b71665d6ea195c5447f1077454cd.eea60d9ebb03c75bb36302aa9d241d3b7a04bba39c360cf035e8bf8140816233
+2019-04-25 03:28:16 | INFO | extracting archive file /home/u/adamlin/.pytorch_pretrained_bert/7fb0534b83c42daee7d3ddb0ebaa81387925b71665d6ea195c5447f1077454cd.eea60d9ebb03c75bb36302aa9d241d3b7a04bba39c360cf035e8bf8140816233 to temp dir /tmp/tmpvm4x8sf4
+2019-04-25 03:28:28 | INFO | Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 28996
+}
+
+2019-04-25 03:30:59 | INFO | Model Folder: saved/large_cased_no_weightdecay/
+2019-04-25 03:30:59 | INFO | Config: None
+2019-04-25 03:30:59 | INFO | Using device: cuda
+2019-04-25 03:30:59 | INFO | Loading dataset...
+2019-04-25 03:31:00 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/cee054f6aafe5e2cf816d2228704e326446785f940f5451a5b26033516a4ac3d.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 03:31:01 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/cee054f6aafe5e2cf816d2228704e326446785f940f5451a5b26033516a4ac3d.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 03:31:01 | INFO | Constructing data loader...
+2019-04-25 03:31:01 | INFO | Start training...
+2019-04-25 03:31:02 | INFO | loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-cased.tar.gz from cache at /home/u/adamlin/.pytorch_pretrained_bert/7fb0534b83c42daee7d3ddb0ebaa81387925b71665d6ea195c5447f1077454cd.eea60d9ebb03c75bb36302aa9d241d3b7a04bba39c360cf035e8bf8140816233
+2019-04-25 03:31:02 | INFO | extracting archive file /home/u/adamlin/.pytorch_pretrained_bert/7fb0534b83c42daee7d3ddb0ebaa81387925b71665d6ea195c5447f1077454cd.eea60d9ebb03c75bb36302aa9d241d3b7a04bba39c360cf035e8bf8140816233 to temp dir /tmp/tmpylrngk_j
+2019-04-25 03:31:14 | INFO | Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 28996
+}
+
+2019-04-25 03:33:27 | INFO | Model Folder: saved/large_cased_no_weightdecay/
+2019-04-25 03:33:27 | INFO | Config: None
+2019-04-25 03:33:27 | INFO | Using device: cuda
+2019-04-25 03:33:27 | INFO | Loading dataset...
+2019-04-25 03:33:28 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/5e8a2b4893d13790ed4150ca1906be5f7a03d6c4ddf62296c383f6db42814db2.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 03:33:29 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/5e8a2b4893d13790ed4150ca1906be5f7a03d6c4ddf62296c383f6db42814db2.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 03:33:29 | INFO | Constructing data loader...
+2019-04-25 03:33:29 | INFO | Start training...
+2019-04-25 03:33:30 | INFO | loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased.tar.gz from cache at /home/u/adamlin/.pytorch_pretrained_bert/a803ce83ca27fecf74c355673c434e51c265fb8a3e0e57ac62a80e38ba98d384.681017f415dfb33ec8d0e04fe51a619f3f01532ecea04edbfd48c5d160550d9c
+2019-04-25 03:33:30 | INFO | extracting archive file /home/u/adamlin/.pytorch_pretrained_bert/a803ce83ca27fecf74c355673c434e51c265fb8a3e0e57ac62a80e38ba98d384.681017f415dfb33ec8d0e04fe51a619f3f01532ecea04edbfd48c5d160550d9c to temp dir /tmp/tmplj_z1vbl
+2019-04-25 03:33:34 | INFO | Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 28996
+}
+
+2019-04-25 03:42:06 | INFO | Model Folder: saved/large_cased_no_weightdecay/
+2019-04-25 03:42:06 | INFO | Config: None
+2019-04-25 03:42:06 | INFO | Using device: cuda
+2019-04-25 03:42:06 | INFO | Loading dataset...
+2019-04-25 03:42:07 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/5e8a2b4893d13790ed4150ca1906be5f7a03d6c4ddf62296c383f6db42814db2.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 03:42:08 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/5e8a2b4893d13790ed4150ca1906be5f7a03d6c4ddf62296c383f6db42814db2.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 03:42:08 | INFO | Constructing data loader...
+2019-04-25 03:42:08 | INFO | Start training...
+2019-04-25 03:42:09 | INFO | loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased.tar.gz from cache at /home/u/adamlin/.pytorch_pretrained_bert/a803ce83ca27fecf74c355673c434e51c265fb8a3e0e57ac62a80e38ba98d384.681017f415dfb33ec8d0e04fe51a619f3f01532ecea04edbfd48c5d160550d9c
+2019-04-25 03:42:09 | INFO | extracting archive file /home/u/adamlin/.pytorch_pretrained_bert/a803ce83ca27fecf74c355673c434e51c265fb8a3e0e57ac62a80e38ba98d384.681017f415dfb33ec8d0e04fe51a619f3f01532ecea04edbfd48c5d160550d9c to temp dir /tmp/tmp28ml_742
+2019-04-25 03:42:13 | INFO | Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 28996
+}
+
+2019-04-25 03:43:04 | INFO | Model Folder: saved/large_cased_no_weightdecay/
+2019-04-25 03:43:04 | INFO | Config: None
+2019-04-25 03:43:04 | INFO | Using device: cuda
+2019-04-25 03:43:04 | INFO | Loading dataset...
+2019-04-25 03:43:05 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/5e8a2b4893d13790ed4150ca1906be5f7a03d6c4ddf62296c383f6db42814db2.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 03:43:06 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/5e8a2b4893d13790ed4150ca1906be5f7a03d6c4ddf62296c383f6db42814db2.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 03:43:06 | INFO | Constructing data loader...
+2019-04-25 03:43:06 | INFO | Start training...
+2019-04-25 03:43:07 | INFO | loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased.tar.gz from cache at /home/u/adamlin/.pytorch_pretrained_bert/a803ce83ca27fecf74c355673c434e51c265fb8a3e0e57ac62a80e38ba98d384.681017f415dfb33ec8d0e04fe51a619f3f01532ecea04edbfd48c5d160550d9c
+2019-04-25 03:43:07 | INFO | extracting archive file /home/u/adamlin/.pytorch_pretrained_bert/a803ce83ca27fecf74c355673c434e51c265fb8a3e0e57ac62a80e38ba98d384.681017f415dfb33ec8d0e04fe51a619f3f01532ecea04edbfd48c5d160550d9c to temp dir /tmp/tmp269kl9xl
+2019-04-25 03:43:11 | INFO | Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 28996
+}
+
+2019-04-25 03:44:51 | INFO | Model Folder: saved/large_cased_no_weightdecay/
+2019-04-25 03:44:51 | INFO | Config: None
+2019-04-25 03:44:51 | INFO | Using device: cuda
+2019-04-25 03:44:51 | INFO | Loading dataset...
+2019-04-25 03:44:52 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/5e8a2b4893d13790ed4150ca1906be5f7a03d6c4ddf62296c383f6db42814db2.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 03:44:52 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/5e8a2b4893d13790ed4150ca1906be5f7a03d6c4ddf62296c383f6db42814db2.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 03:44:53 | INFO | Constructing data loader...
+2019-04-25 03:44:53 | INFO | Start training...
+2019-04-25 03:44:53 | INFO | loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased.tar.gz from cache at /home/u/adamlin/.pytorch_pretrained_bert/a803ce83ca27fecf74c355673c434e51c265fb8a3e0e57ac62a80e38ba98d384.681017f415dfb33ec8d0e04fe51a619f3f01532ecea04edbfd48c5d160550d9c
+2019-04-25 03:44:53 | INFO | extracting archive file /home/u/adamlin/.pytorch_pretrained_bert/a803ce83ca27fecf74c355673c434e51c265fb8a3e0e57ac62a80e38ba98d384.681017f415dfb33ec8d0e04fe51a619f3f01532ecea04edbfd48c5d160550d9c to temp dir /tmp/tmpgvtqps00
+2019-04-25 03:44:57 | INFO | Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 28996
+}
+
+2019-04-25 03:48:13 | INFO | Model Folder: saved/large_cased_no_weightdecay/
+2019-04-25 03:48:13 | INFO | Config: None
+2019-04-25 03:48:13 | INFO | Using device: cuda
+2019-04-25 03:48:13 | INFO | Loading dataset...
+2019-04-25 03:48:14 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/5e8a2b4893d13790ed4150ca1906be5f7a03d6c4ddf62296c383f6db42814db2.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 03:48:15 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/5e8a2b4893d13790ed4150ca1906be5f7a03d6c4ddf62296c383f6db42814db2.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 03:48:15 | INFO | Constructing data loader...
+2019-04-25 03:48:15 | INFO | Start training...
+2019-04-25 03:48:16 | INFO | loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased.tar.gz from cache at /home/u/adamlin/.pytorch_pretrained_bert/a803ce83ca27fecf74c355673c434e51c265fb8a3e0e57ac62a80e38ba98d384.681017f415dfb33ec8d0e04fe51a619f3f01532ecea04edbfd48c5d160550d9c
+2019-04-25 03:48:16 | INFO | extracting archive file /home/u/adamlin/.pytorch_pretrained_bert/a803ce83ca27fecf74c355673c434e51c265fb8a3e0e57ac62a80e38ba98d384.681017f415dfb33ec8d0e04fe51a619f3f01532ecea04edbfd48c5d160550d9c to temp dir /tmp/tmp3dkjokfo
+2019-04-25 03:48:20 | INFO | Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 28996
+}
+
+2019-04-25 03:59:38 | INFO | Model Folder: saved/large_cased_no_weightdecay/
+2019-04-25 03:59:38 | INFO | Config: None
+2019-04-25 03:59:38 | INFO | Using device: cuda
+2019-04-25 03:59:38 | INFO | Loading dataset...
+2019-04-25 03:59:39 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/5e8a2b4893d13790ed4150ca1906be5f7a03d6c4ddf62296c383f6db42814db2.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 03:59:40 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/5e8a2b4893d13790ed4150ca1906be5f7a03d6c4ddf62296c383f6db42814db2.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 03:59:40 | INFO | Constructing data loader...
+2019-04-25 03:59:40 | INFO | Start training...
+2019-04-25 03:59:41 | INFO | loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased.tar.gz from cache at /home/u/adamlin/.pytorch_pretrained_bert/a803ce83ca27fecf74c355673c434e51c265fb8a3e0e57ac62a80e38ba98d384.681017f415dfb33ec8d0e04fe51a619f3f01532ecea04edbfd48c5d160550d9c
+2019-04-25 03:59:41 | INFO | extracting archive file /home/u/adamlin/.pytorch_pretrained_bert/a803ce83ca27fecf74c355673c434e51c265fb8a3e0e57ac62a80e38ba98d384.681017f415dfb33ec8d0e04fe51a619f3f01532ecea04edbfd48c5d160550d9c to temp dir /tmp/tmp1l91yw9n
+2019-04-25 03:59:45 | INFO | Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 28996
+}
+
+2019-04-25 04:09:26 | INFO | Model Folder: saved/large_cased_no_weightdecay/
+2019-04-25 04:09:26 | INFO | Config: None
+2019-04-25 04:09:26 | INFO | Using device: cuda
+2019-04-25 04:09:26 | INFO | Loading dataset...
+2019-04-25 04:09:27 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/cee054f6aafe5e2cf816d2228704e326446785f940f5451a5b26033516a4ac3d.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 04:09:28 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/cee054f6aafe5e2cf816d2228704e326446785f940f5451a5b26033516a4ac3d.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 04:09:28 | INFO | Constructing data loader...
+2019-04-25 04:09:28 | INFO | Start training...
+2019-04-25 04:09:29 | INFO | loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-cased.tar.gz from cache at /home/u/adamlin/.pytorch_pretrained_bert/7fb0534b83c42daee7d3ddb0ebaa81387925b71665d6ea195c5447f1077454cd.eea60d9ebb03c75bb36302aa9d241d3b7a04bba39c360cf035e8bf8140816233
+2019-04-25 04:09:29 | INFO | extracting archive file /home/u/adamlin/.pytorch_pretrained_bert/7fb0534b83c42daee7d3ddb0ebaa81387925b71665d6ea195c5447f1077454cd.eea60d9ebb03c75bb36302aa9d241d3b7a04bba39c360cf035e8bf8140816233 to temp dir /tmp/tmp2nxlntk5
+2019-04-25 04:09:40 | INFO | Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 28996
+}
+
+2019-04-25 04:14:50 | INFO | Model Folder: saved/large_cased_no_weightdecay/
+2019-04-25 04:14:50 | INFO | Config: None
+2019-04-25 04:14:50 | INFO | Using device: cuda
+2019-04-25 04:14:50 | INFO | Loading dataset...
+2019-04-25 04:14:51 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/cee054f6aafe5e2cf816d2228704e326446785f940f5451a5b26033516a4ac3d.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 04:14:52 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/cee054f6aafe5e2cf816d2228704e326446785f940f5451a5b26033516a4ac3d.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 04:14:52 | INFO | Constructing data loader...
+2019-04-25 04:14:52 | INFO | Start training...
+2019-04-25 04:14:53 | INFO | loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-cased.tar.gz from cache at /home/u/adamlin/.pytorch_pretrained_bert/7fb0534b83c42daee7d3ddb0ebaa81387925b71665d6ea195c5447f1077454cd.eea60d9ebb03c75bb36302aa9d241d3b7a04bba39c360cf035e8bf8140816233
+2019-04-25 04:14:53 | INFO | extracting archive file /home/u/adamlin/.pytorch_pretrained_bert/7fb0534b83c42daee7d3ddb0ebaa81387925b71665d6ea195c5447f1077454cd.eea60d9ebb03c75bb36302aa9d241d3b7a04bba39c360cf035e8bf8140816233 to temp dir /tmp/tmpigz0t5et
+2019-04-25 04:15:04 | INFO | Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 28996
+}
+
+2019-04-25 04:20:21 | INFO | Model Folder: saved/large_cased_no_weightdecay/
+2019-04-25 04:20:21 | INFO | Config: None
+2019-04-25 04:20:21 | INFO | Using device: cuda
+2019-04-25 04:20:21 | INFO | Loading dataset...
+2019-04-25 04:20:22 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/cee054f6aafe5e2cf816d2228704e326446785f940f5451a5b26033516a4ac3d.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 04:20:23 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-cased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/cee054f6aafe5e2cf816d2228704e326446785f940f5451a5b26033516a4ac3d.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+2019-04-25 04:20:23 | INFO | Constructing data loader...
+2019-04-25 04:20:23 | INFO | Start training...
+2019-04-25 04:20:24 | INFO | loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-cased.tar.gz from cache at /home/u/adamlin/.pytorch_pretrained_bert/7fb0534b83c42daee7d3ddb0ebaa81387925b71665d6ea195c5447f1077454cd.eea60d9ebb03c75bb36302aa9d241d3b7a04bba39c360cf035e8bf8140816233
+2019-04-25 04:20:24 | INFO | extracting archive file /home/u/adamlin/.pytorch_pretrained_bert/7fb0534b83c42daee7d3ddb0ebaa81387925b71665d6ea195c5447f1077454cd.eea60d9ebb03c75bb36302aa9d241d3b7a04bba39c360cf035e8bf8140816233 to temp dir /tmp/tmp1gjl8jrd
+2019-04-25 04:20:36 | INFO | Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 28996
+}
+

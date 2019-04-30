@@ -1,0 +1,19 @@
+{
+    "cuda_ids": "1",
+    "arch": "RnnBaselineNet",
+    "train": "../data/train.pkl",
+    "test": "../data/test.pkl",
+    "model_parameters": {
+        "valid": "../data/valid.pkl",
+        "embedding": "../data/embedding.pkl",
+        "batch_size": 100,
+        "max_epochs" :100,
+        "learning_rate": 1e-3,
+        "dropout_rate": 0.2,
+        "dim_rnn": 256,
+        "num_layers": 2,
+        "max_iters_in_epoch": 1e100,
+        "grad_accumulate_steps":1,
+        "n_works": 16
+    }
+}
