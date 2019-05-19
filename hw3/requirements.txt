@@ -1,0 +1,9 @@
+numpy
+pandas
+torch==1.0
+torchvision==0.2.2
+opencv-python
+gym
+gym[box2d]
+gym[atari]
+
