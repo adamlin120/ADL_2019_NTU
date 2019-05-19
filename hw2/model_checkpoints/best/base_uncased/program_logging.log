@@ -1,0 +1,161 @@
+2019-04-22 13:44:28 | INFO | Model Folder: saved/base_uncased/
+2019-04-22 13:44:28 | INFO | Config: None
+2019-04-22 13:44:28 | INFO | Using device: cuda
+2019-04-22 13:44:28 | INFO | Loading dataset...
+2019-04-22 13:44:29 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+2019-04-22 13:44:30 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+2019-04-22 13:44:30 | INFO | Constructing data loader...
+2019-04-22 13:44:30 | INFO | Start training...
+2019-04-22 13:44:31 | INFO | loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased.tar.gz from cache at /home/u/adamlin/.pytorch_pretrained_bert/9c41111e2de84547a463fd39217199738d1e3deb72d4fec4399e6e241983c6f0.ae3cef932725ca7a30cdcb93fc6e09150a55e2a130ec7af63975a16c153ae2ba
+2019-04-22 13:44:31 | INFO | extracting archive file /home/u/adamlin/.pytorch_pretrained_bert/9c41111e2de84547a463fd39217199738d1e3deb72d4fec4399e6e241983c6f0.ae3cef932725ca7a30cdcb93fc6e09150a55e2a130ec7af63975a16c153ae2ba to temp dir /tmp/tmp1dhulgdk
+2019-04-22 13:44:39 | INFO | Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+2019-04-22 13:44:52 | INFO | Weights of BertForSequenceClassification not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2019-04-22 13:44:52 | INFO | Weights from pretrained model not used in BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+2019-04-22 13:45:18 | INFO | Model Folder: saved/base_uncased/
+2019-04-22 13:45:18 | INFO | Config: None
+2019-04-22 13:45:18 | INFO | Using device: cuda
+2019-04-22 13:45:18 | INFO | Loading dataset...
+2019-04-22 13:45:19 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+2019-04-22 13:45:42 | INFO | Model Folder: saved/base_uncased/
+2019-04-22 13:45:42 | INFO | Config: None
+2019-04-22 13:45:42 | INFO | Using device: cuda
+2019-04-22 13:45:42 | INFO | Loading dataset...
+2019-04-22 13:45:44 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+2019-04-22 13:45:45 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+2019-04-22 13:45:45 | INFO | Constructing data loader...
+2019-04-22 13:45:45 | INFO | Start training...
+2019-04-22 13:45:46 | INFO | loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased.tar.gz from cache at /home/u/adamlin/.pytorch_pretrained_bert/9c41111e2de84547a463fd39217199738d1e3deb72d4fec4399e6e241983c6f0.ae3cef932725ca7a30cdcb93fc6e09150a55e2a130ec7af63975a16c153ae2ba
+2019-04-22 13:45:46 | INFO | extracting archive file /home/u/adamlin/.pytorch_pretrained_bert/9c41111e2de84547a463fd39217199738d1e3deb72d4fec4399e6e241983c6f0.ae3cef932725ca7a30cdcb93fc6e09150a55e2a130ec7af63975a16c153ae2ba to temp dir /tmp/tmp0em7fhbw
+2019-04-22 13:45:50 | INFO | Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+2019-04-22 13:46:03 | INFO | Weights of BertForSequenceClassification not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2019-04-22 13:46:03 | INFO | Weights from pretrained model not used in BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+2019-04-22 13:48:29 | INFO | Model Folder: saved/base_uncased/
+2019-04-22 13:48:29 | INFO | Config: None
+2019-04-22 13:48:29 | INFO | Using device: cuda
+2019-04-22 13:48:29 | INFO | Loading dataset...
+2019-04-22 13:48:30 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+2019-04-22 13:48:31 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+2019-04-22 13:48:31 | INFO | Constructing data loader...
+2019-04-22 13:48:31 | INFO | Start training...
+2019-04-22 13:48:32 | INFO | loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased.tar.gz from cache at /home/u/adamlin/.pytorch_pretrained_bert/9c41111e2de84547a463fd39217199738d1e3deb72d4fec4399e6e241983c6f0.ae3cef932725ca7a30cdcb93fc6e09150a55e2a130ec7af63975a16c153ae2ba
+2019-04-22 13:48:32 | INFO | extracting archive file /home/u/adamlin/.pytorch_pretrained_bert/9c41111e2de84547a463fd39217199738d1e3deb72d4fec4399e6e241983c6f0.ae3cef932725ca7a30cdcb93fc6e09150a55e2a130ec7af63975a16c153ae2ba to temp dir /tmp/tmp_co30ec1
+2019-04-22 13:48:36 | INFO | Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+2019-04-22 13:48:49 | INFO | Weights of BertForSequenceClassification not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2019-04-22 13:48:49 | INFO | Weights from pretrained model not used in BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+2019-04-22 14:05:08 | INFO | Model Folder: saved/base_uncased/
+2019-04-22 14:05:08 | INFO | Config: None
+2019-04-22 14:05:08 | INFO | Using device: cuda
+2019-04-22 14:05:08 | INFO | Loading dataset...
+2019-04-22 14:05:09 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+2019-04-22 14:05:10 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+2019-04-22 14:05:10 | INFO | Constructing data loader...
+2019-04-22 14:05:10 | INFO | Start training...
+2019-04-22 14:05:11 | INFO | loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased.tar.gz from cache at /home/u/adamlin/.pytorch_pretrained_bert/9c41111e2de84547a463fd39217199738d1e3deb72d4fec4399e6e241983c6f0.ae3cef932725ca7a30cdcb93fc6e09150a55e2a130ec7af63975a16c153ae2ba
+2019-04-22 14:05:11 | INFO | extracting archive file /home/u/adamlin/.pytorch_pretrained_bert/9c41111e2de84547a463fd39217199738d1e3deb72d4fec4399e6e241983c6f0.ae3cef932725ca7a30cdcb93fc6e09150a55e2a130ec7af63975a16c153ae2ba to temp dir /tmp/tmpdfgy0d7v
+2019-04-22 14:05:15 | INFO | Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+2019-04-22 14:05:28 | INFO | Weights of BertForSequenceClassification not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2019-04-22 14:05:28 | INFO | Weights from pretrained model not used in BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+2019-04-22 14:11:18 | INFO | Model Folder: saved/base_uncased/
+2019-04-22 14:11:18 | INFO | Config: None
+2019-04-22 14:11:18 | INFO | Using device: cuda
+2019-04-22 14:11:18 | INFO | Loading dataset...
+2019-04-22 14:11:19 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+2019-04-22 14:11:20 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+2019-04-22 14:11:20 | INFO | Constructing data loader...
+2019-04-22 14:11:20 | INFO | Start training...
+2019-04-22 14:11:21 | INFO | loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased.tar.gz from cache at /home/u/adamlin/.pytorch_pretrained_bert/9c41111e2de84547a463fd39217199738d1e3deb72d4fec4399e6e241983c6f0.ae3cef932725ca7a30cdcb93fc6e09150a55e2a130ec7af63975a16c153ae2ba
+2019-04-22 14:11:21 | INFO | extracting archive file /home/u/adamlin/.pytorch_pretrained_bert/9c41111e2de84547a463fd39217199738d1e3deb72d4fec4399e6e241983c6f0.ae3cef932725ca7a30cdcb93fc6e09150a55e2a130ec7af63975a16c153ae2ba to temp dir /tmp/tmp1c3hk7jy
+2019-04-22 14:11:25 | INFO | Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+2019-04-22 14:11:38 | INFO | Weights of BertForSequenceClassification not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2019-04-22 14:11:38 | INFO | Weights from pretrained model not used in BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+2019-04-22 15:08:26 | INFO | Model Folder: saved/base_uncased/
+2019-04-22 15:08:26 | INFO | Config: None
+2019-04-22 15:08:26 | INFO | Using device: cuda
+2019-04-22 15:08:26 | INFO | Loading dataset...
+2019-04-22 15:08:27 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-uncased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/9b3c03a36e83b13d5ba95ac965c9f9074a99e14340c523ab405703179e79fc46.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+2019-04-22 15:08:28 | INFO | loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-uncased-vocab.txt from cache at /home/u/adamlin/.pytorch_pretrained_bert/9b3c03a36e83b13d5ba95ac965c9f9074a99e14340c523ab405703179e79fc46.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+2019-04-22 15:08:28 | INFO | Constructing data loader...
+2019-04-22 15:08:28 | INFO | Start training...
+2019-04-22 15:08:29 | INFO | loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-uncased.tar.gz from cache at /home/u/adamlin/.pytorch_pretrained_bert/214d4777e8e3eb234563136cd3a49f6bc34131de836848454373fa43f10adc5e.abfbb80ee795a608acbf35c7bf2d2d58574df3887cdd94b355fc67e03fddba05
+2019-04-22 15:08:29 | INFO | extracting archive file /home/u/adamlin/.pytorch_pretrained_bert/214d4777e8e3eb234563136cd3a49f6bc34131de836848454373fa43f10adc5e.abfbb80ee795a608acbf35c7bf2d2d58574df3887cdd94b355fc67e03fddba05 to temp dir /tmp/tmpc3iv5lm1
+2019-04-22 15:08:44 | INFO | Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+2019-04-22 15:09:07 | INFO | Weights of BertForSequenceClassification not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2019-04-22 15:09:10 | INFO | Weights from pretrained model not used in BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']

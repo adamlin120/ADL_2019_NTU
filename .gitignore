@@ -7,3 +7,12 @@ __pycache__/
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+
+.idea/
+
+# ignore model checkpoint
+*.ckpt
+*.pt
+
+# ignore hw3 model files
+hw3/model/*
