@@ -13,6 +13,16 @@ pip-delete-this-directory.txt
 # ignore model checkpoint
 *.ckpt
 *.pt
+*.pb
 
 # ignore hw3 model files
 hw3/model/*
+
+# ignore hw4 images
+hw4/selected_cartoonset100k/*.png
+*.png
+*.gif
+
+b04705026/
+b04705026.zip
+

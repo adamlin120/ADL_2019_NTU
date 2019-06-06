@@ -1,0 +1,16 @@
+attr_file: selected_cartoonset100k/cartoon_attr.txt
+image_dir: selected_cartoonset100k/images/
+
+manual_seed: 633
+
+batch_size: 64
+n_critic: 2
+num_epoch: 100000 
+
+noise_dim: 100
+num_all_labels: 15
+base_acti_maps: 32
+
+lr: 2e-4
+beta1: 0.0
+beta2: 0.9
